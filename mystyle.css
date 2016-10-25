@@ -1,0 +1,102 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body {
+    background-color: lightblue;
+	direction: rtl;
+	background-image: url(images/background/04_free_subtle_textures_blueprint_texture.jpg);
+	text-align:right;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+label{
+	font-size:18px;
+	alignment-adjust:central;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#up {
+	text-align:center;
+	color:#FFF;
+  	padding-right: 10%;
+	padding-left: 10%;
+	height:150px;
+	margin-up:0;
+	background-image:url(images/background/background-images-for-websites-7.jpg);
+}
+.center {
+	background-image:url(images/background/background-images-for-websites-15.jpg);
+	width:800px;
+  	/*padding-right: 10%;
+	padding-left: 10%;*/
+	border: 3px solid #73AD21;
+    padding: 20px;
+	float:left;
+}
+
+.left {
+	width: 200px;
+    /*border: 3px solid #73AD21;*/
+    padding: 10px;
+	float:left;
+}
+#right {
+	width: 200px;
+    /*border: 3px solid #73AD21;*/
+    padding: 10px;
+}
+#all{
+	width:1275px;
+	margin:auto;
+}
+.tb_sub{
+	width:430px;
+	height:25px;
+    border-radius:10px;
+}
+#ff_pic{
+	width:150px;
+	float:right;
+}
+.table {
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:13px;
+  font-style:italic;	
+}
+
+.textbox {
+    height:25px;
+   	border-radius: 10px;	
+}
+
+.buttons {
+  text-align:center;
+  alignment-adjust:central;
+  border-radius: 5px;
+  width:150px;
+  height:50px;
+}
+.li 
+{
+	background-color:#999;
+	border:medium;
+	border-style:solid;
+	border-width: 2px , 2px , 2px, 2px;
+	border-color:#C9F;
+	margin:5px;
+	text-align:center;
+	list-style:none;
+	text-decoration:none;
+}
+li:hover {
+  background-color:#666;	
+}
+.a {
+	text-decoration:none;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+}
