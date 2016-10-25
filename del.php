@@ -11,6 +11,7 @@ mysqli_set_charset($con ,'utf8');
 
 <body>
 <?php if (isset ($_GET['deltemppic']))
+	//ali test
 		  {
 			$id = $_GET['deltemppic'];
 			$sql = "DELETE FROM temppic WHERE `id` = '".$id."'";
